@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json()); 
 
-const uri = "mongodb+srv://gunjeramakrishna:rama1234krishna@cluster0.jmyge10.mongodb.net/ramakrishna?appName=Cluster0";
+const uri = "mongodb+srv://gunjeramakrishna:rama1234krishna@cluster0.jmyge10.mongodb.net/?appName=Cluster0";
 const client = new MongoClient(uri);
 let studentsCollection;
 
